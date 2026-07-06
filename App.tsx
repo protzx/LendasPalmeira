@@ -36,12 +36,12 @@ export default function App() {
   const duracaoSom = status.duration ?? 0;
 
   const listaDeLendas: Musica[] = [
-    { id: 0, titulo: 'Capão do Manhoso', duracao: '5 min 12 seg', icone: 'Moon', arquivo: require('./assets/audios/capao.mp3') },
-    { id: 1, titulo: 'Corpo Seco', duracao: '5 min 12 seg', icone: 'Skull', arquivo: require('./assets/audios/corposeco.mp3') },
-    { id: 2, titulo: 'A Noiva de Branco', duracao: '5 min 12 seg', icone: 'CarFront', arquivo: require('./assets/audios/anoivadebranco.mp3') },
-    { id: 3, titulo: 'A Farinheira', duracao: '5 min 12 seg', icone: 'Bone', arquivo: require('./assets/audios/afarinheira.mp3') },
-    { id: 4, titulo: 'O Roubo da Cruz', duracao: '5 min 12 seg', icone: 'Church', arquivo: require('./assets/audios/oroubodacruz.mp3') },
-    { id: 5, titulo: 'O Tropeiro Fantasma', duracao: '5 min 12 seg', icone: 'ChessKnight', arquivo: require('./assets/audios/otropeirofantasma.mp3') }
+    { id: 0, titulo: 'Capão do Manhoso', duracao: '4 min 10 seg', icone: 'Moon', arquivo: require('./assets/audios/capao.mp3') },
+    { id: 1, titulo: 'Corpo Seco', duracao: '3 min 52 seg', icone: 'Skull', arquivo: require('./assets/audios/corposeco.mp3') },
+    { id: 2, titulo: 'A Noiva de Branco', duracao: '3 min 52 seg', icone: 'CarFront', arquivo: require('./assets/audios/anoivadebranco.mp3') },
+    { id: 3, titulo: 'A Farinheira', duracao: '3 min 52 seg', icone: 'Bone', arquivo: require('./assets/audios/afarinheira.mp3') },
+    { id: 4, titulo: 'O Roubo da Cruz', duracao: '3 min 53 seg', icone: 'Church', arquivo: require('./assets/audios/oroubodacruz.mp3') },
+    { id: 5, titulo: 'O Tropeiro Fantasma', duracao: '4 min 37 seg', icone: 'ChessKnight', arquivo: require('./assets/audios/otropeirofantasma.mp3') }
   ];
 
   useEffect(() => {
@@ -190,7 +190,7 @@ export default function App() {
               marginTop: 10,
               marginBottom: 24
             }}>
-              <Text style={{ color: '#f0f0f0', fontWeight: '500' }}>6 lendas</Text> • 35 min 51 seg
+              <Text style={{ color: '#f0f0f0', fontWeight: '500' }}>6 lendas</Text> • 24 min 16 seg
             </Text>
 
             <View style={{
@@ -254,7 +254,7 @@ export default function App() {
                 </View>
                 <View style={{ flex: 1 }}>
                   <Text style={{ color: '#f0f0f0', fontSize: 16, fontWeight: '600', marginBottom: 4 }}>Capão do Manhoso</Text>
-                  <Text style={{ color: '#777777', fontSize: 13 }}>5 min 12 seg</Text>
+                  <Text style={{ color: '#777777', fontSize: 13 }}>4 min 10 seg</Text>
                 </View>
               </View>
             </TouchableOpacity>
@@ -282,7 +282,7 @@ export default function App() {
                 </View>
                 <View style={{ flex: 1 }}>
                   <Text style={{ color: '#f0f0f0', fontSize: 16, fontWeight: '600', marginBottom: 4 }}>Corpo Seco</Text>
-                  <Text style={{ color: '#777777', fontSize: 13 }}>5 min 12 seg</Text>
+                  <Text style={{ color: '#777777', fontSize: 13 }}>3 min 52 seg</Text>
                 </View>
               </View>
             </TouchableOpacity>
@@ -310,7 +310,7 @@ export default function App() {
                 </View>
                 <View style={{ flex: 1 }}>
                   <Text style={{ color: '#f0f0f0', fontSize: 16, fontWeight: '600', marginBottom: 4 }}>A Noiva de Branco</Text>
-                  <Text style={{ color: '#777777', fontSize: 13 }}>5 min 12 seg</Text>
+                  <Text style={{ color: '#777777', fontSize: 13 }}>3 min 52 seg</Text>
                 </View>
               </View>
             </TouchableOpacity>
@@ -338,7 +338,7 @@ export default function App() {
                 </View>
                 <View style={{ flex: 1 }}>
                   <Text style={{ color: '#f0f0f0', fontSize: 16, fontWeight: '600', marginBottom: 4 }}>A Farinheira</Text>
-                  <Text style={{ color: '#777777', fontSize: 13 }}>5 min 12 seg</Text>
+                  <Text style={{ color: '#777777', fontSize: 13 }}>3 min 52 seg</Text>
                 </View>
               </View>
             </TouchableOpacity>
@@ -366,7 +366,7 @@ export default function App() {
                 </View>
                 <View style={{ flex: 1 }}>
                   <Text style={{ color: '#f0f0f0', fontSize: 16, fontWeight: '600', marginBottom: 4 }}>O Roubo da Cruz</Text>
-                  <Text style={{ color: '#777777', fontSize: 13 }}>5 min 12 seg</Text>
+                  <Text style={{ color: '#777777', fontSize: 13 }}>3 min 53 seg</Text>
                 </View>
               </View>
             </TouchableOpacity>
@@ -394,7 +394,7 @@ export default function App() {
                 </View>
                 <View style={{ flex: 1 }}>
                   <Text style={{ color: '#f0f0f0', fontSize: 16, fontWeight: '600', marginBottom: 4 }}>O Tropeiro Fantasma</Text>
-                  <Text style={{ color: '#777777', fontSize: 13 }}>5 min 12 seg</Text>
+                  <Text style={{ color: '#777777', fontSize: 13 }}>4 min 37 seg</Text>
                 </View>
               </View>
             </TouchableOpacity>
