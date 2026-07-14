@@ -4,6 +4,7 @@
     "appVersionSource": "remote"
   },
   "build": {
+    
     "preview": {
       "distribution": "internal",
       "android": {
